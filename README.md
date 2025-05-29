@@ -65,7 +65,7 @@ npm install
 node index.js
 ```
 
-Server will start on [http://localhost:8080](http://localhost:8080)
+Server will start on [http://localhost:8000](http://localhost:8000)
 
 ---
 
@@ -79,16 +79,6 @@ Server will start on [http://localhost:8080](http://localhost:8080)
 | `/todo?id=2`     | GET    | Returns a specific todo               |
 | `/notifications` | GET    | Simulates notification counts         |
 | `/`              | GET    | Welcome message (recommended to add)  |
-
----
-
-## ✅ Example
-
-**GET** `http://localhost:8080/sum?a=10&b=15`  
-**Response:**  
-```
-25
-```
 
 ---
 
