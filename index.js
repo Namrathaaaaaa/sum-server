@@ -85,6 +85,6 @@ app.get("/notifications", (req, res) => {
 
 })
 
-app.listen(8080, () => {
+app.listen(8000, () => {
   console.log("Server running at http://localhost:8080");
 });
